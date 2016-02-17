@@ -1,0 +1,26 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Places Search</h1>
+{% if placeSearch %}
+	<form name="dform" action="" method="post" onsubmit="">
+		<h3 style="text-align:left;">
+		<input type="radio" name="options" value="0"> {{ placeSearch[0]}}</input></br>
+		<input type="radio" name="options" value="1"> {{ placeSearch[1]}}</input></br>
+		<input type="radio" name="options" value="2"> {{ placeSearch[2]}}</input></br>
+		<input type="radio" name="options" value="3"> {{ placeSearch[3]}}</input></br>
+		<input type="radio" name="options" value="4"> {{ placeSearch[4]}}</input></br>
+		<input type="submit" value="Submit">
+		</h3>
+	</form>
+{% endif %}
+{% if placesJson %}
+	{{ placesJson.placeName }}</br>
+	{{ placesJson.placeRating }}</br>
+	{{ placesJson.placePhone }}</br>
+	{{ placesJson.placeAddr }}</br>
+	{{ placesJson.placeWeb }}</br>
+	<img src="{{placesJson.placeImageURL  }}" alt="Image Unavailable" />
+{% endif %}
+{% endblock %}

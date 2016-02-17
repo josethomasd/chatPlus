@@ -1,0 +1,60 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "Vazhakulam",
+            "short_name" : "Vazhakulam",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Ernakulam",
+            "short_name" : "EKM",
+            "types" : [ "administrative_area_level_2", "political" ]
+         },
+         {
+            "long_name" : "Kerala",
+            "short_name" : "KL",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "India",
+            "short_name" : "IN",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "686670",
+            "short_name" : "686670",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"locality\"\u003eVazhakulam\u003c/span\u003e, \u003cspan class=\"region\"\u003eKerala\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e686670\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eIndia\u003c/span\u003e",
+      "formatted_address" : "Vazhakulam, Kerala 686670, India",
+      "geometry" : {
+         "location" : {
+            "lat" : 9.946957599999999,
+            "lng" : 76.6358997
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 9.9524293,
+               "lng" : 76.6469336
+            },
+            "southwest" : {
+               "lat" : 9.9376558,
+               "lng" : 76.62764299999999
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id" : "99be3b08298cc6a85f397eed0e6e3380a6edc4e9",
+      "name" : "Vazhakulam",
+      "place_id" : "ChIJ-9jUbSrdBzsRs_Hyqx5Hp_4",
+      "reference" : "CoQBfQAAABOrsEvc2IR01MVVRXcTm5C_GHKSiQDxNGieaxCNLtxgMvXOlykfeyEEOEqce9V2eyPiv7VmWjfiLjz3O52L3QSLETEq3yLt2WKX8_EKoHC8S2RmoFq4t9Zc_7FVCwCnpfTBsQqPph_6ZgbQ0jsPb6UZ1kOuVeSHElqGzLvStdnPEhC3jSJKobZSIJwqwOxaDckZGhSASK0AuSHgWIExlYV4ux01JGn8ag",
+      "scope" : "GOOGLE",
+      "types" : [ "locality", "political" ],
+      "url" : "https://maps.google.com/?q=Vazhakulam,+Kerala+686670,+India&ftid=0x3b07dd2a6dd4d8fb:0xfea7471eabf2f1b3",
+      "vicinity" : "Vazhakulam"
+   },
+   "status" : "OK"
+}
